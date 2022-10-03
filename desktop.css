@@ -1,0 +1,80 @@
+@charset 'UTF-8';
+
+@media screen and (min-width: 768px) {
+    /* body {
+        background-color: aqua;
+    } */
+
+    header {
+        background-color: var(--cor-verde);
+        /* height: 70px; */
+    }
+
+    span#burguer {
+        display: none;
+        background-color: red;
+    }
+    menu#links {
+        position: static;
+        width: 1200px;
+        display: block;
+        height: 70px;
+        margin: auto;
+
+        /* background-color: blue; */
+    }
+    menu#links > ul {
+        display: flex;
+        margin-left: 85%;
+        
+    }
+    main#main-content {
+        width: 1200px;
+        background-color: lightgrey;
+    }
+    div#banner > img {
+        width: 100%;
+    }
+    div.bio {
+        width: 60%;
+        margin: auto;
+    }
+    section#destaques {
+        display: flex;
+    }
+    section#destaques > div.info > h2 {
+        text-align: center;
+    }
+    div.info {
+        width: 33.3%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section#social {
+        display: flex;
+        margin-top: 20px;
+    }
+    section#social > div.card-social {
+        width: 50%;
+        height: 220px;
+        margin: auto;
+        background-color: blueviolet;
+    }
+    section#social > div.card-social > h2, p {
+        text-align: center;
+        margin-top: 3%;
+    }
+    
+    /* Coisas do catalogo */
+    section#prod {
+        display: flex;
+        /* margin: auto; */
+        margin-top: 20px;
+    }
+    section#prod > div {
+        width: 30%;    
+  }
+    
+}
+
