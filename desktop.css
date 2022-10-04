@@ -59,7 +59,7 @@
         width: 50%;
         height: 220px;
         margin: auto;
-        background-color: blueviolet;
+        /* background-color: blueviolet; */
     }
     section#social > div.card-social > h2, p {
         text-align: center;

@@ -46,11 +46,11 @@ menu#links > ul > li { /* configurações dos links do menu */
 
 #banner {
     display: flex;
-    /* margin-top: 20px; */
-    /* margin-bottom: 20px; */
+    /* margin-top: 20px;  */
+    margin-bottom: 20px;
 }
 #banner > img {
-    width: 50%;
+    width: 100%;
     margin: auto;
 }
 
@@ -74,6 +74,9 @@ menu#links > ul > li { /* configurações dos links do menu */
 .info {
     margin-top: 20px;
 }
+.info > h2 {
+    text-align: center;
+}
 .info > p {
     width: 80%;
     margin: auto;
@@ -87,6 +90,14 @@ menu#links > ul > li { /* configurações dos links do menu */
     margin-bottom: 20px;
     width: 100%;
 }
+
+.card-social > h2, p {
+    text-align: center;
+}
+.card-social > p {
+    padding: 5px;
+}
+
 
 #btn-catalogo {
     display: flex;
