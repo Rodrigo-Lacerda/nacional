@@ -91,20 +91,40 @@ menu#links > ul > li { /* configurações dos links do menu */
     width: 100%;
 }
 
+section#social {
+    padding-top: 30px;
+}
 .card-social > h2, p {
     text-align: center;
 }
 .card-social > p {
     padding: 5px;
 }
+.card-social > h2 {
+    padding: 5px;
+}
 
+section#social > div.card-social > div > p > img {
+    width: 90vw;
+    padding-bottom: 5%;
+}
 
 #btn-catalogo {
     display: flex;
-    padding: 10px;
+    width: 40%;
+    padding: 15px;
     border-radius: 15px;
     background-color: aqua;
     margin: auto;
+/* 
+    button#btn-catalogo {
+        width: 25%;
+        padding: 15px;
+        font-size: 30px;
+        
+    }
+*/
+
 }
 
 /* Roda-pé personalizado */

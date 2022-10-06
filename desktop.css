@@ -50,7 +50,12 @@
         padding: 10px;
         box-sizing: border-box;
     }
-
+    button#btn-catalogo {
+        width: 25%;
+        padding: 15px;
+        font-size: 30px;
+        
+    }
     section#social {
         display: flex;
         margin-top: 20px;
@@ -63,7 +68,9 @@
     }
     section#social > div.card-social > h2, p {
         text-align: center;
-        margin-top: 3%;
+    }
+    section#social > div.card-social > div > p >img {
+        width: 400px;
     }
     
     /* Coisas do catalogo */
