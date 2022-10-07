@@ -9,9 +9,9 @@
     --cor-verde: #00a650;
 }
 
-main { /* Develop */ 
+/* main { Develop  */
   /* margin-top: -20px; */  
-} 
+/* }  */
 
 
 /* Conteudo do header */
@@ -104,7 +104,8 @@ section#social {
     padding: 5px;
 }
 
-section#social > div.card-social > div > p > img {
+section#social > div.card-social > div > p > a > img { 
+    /* configurações das redes sociais */
     width: 90vw;
     padding-bottom: 5%;
 }

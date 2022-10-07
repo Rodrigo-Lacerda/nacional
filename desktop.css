@@ -69,7 +69,7 @@
     section#social > div.card-social > h2, p {
         text-align: center;
     }
-    section#social > div.card-social > div > p >img {
+    section#social > div.card-social > div > p > a > img {
         width: 400px;
     }
     
